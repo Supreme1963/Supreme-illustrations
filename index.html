@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Use a modern, clean font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container nav">
+            <a href="#home" class="logo">My Portfolio</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm Mustapha Sheriff</h1>
+                <p>A passionate 2D illustrator creating crisp detailed and beautiful artwork.</p>
+                <a href="#contact" class="cta-button">Get in Touch</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div>
+                    <img src="https://placehold.co/600x400/222/fff?text=Your+Photo" alt="Your Photo" class="about-image">
+                </div>
+                <div>
+                    <p>
+                        I'm a dedicated 2D illustrator with a strong focus on creating detailed and aesthetically pleasing art. I specialize in illustrations like Anime art, Furry art, and Pixel art, and I'm always eager to learn new skills.
+                    </p>
+                    <p>
+                        My journey in 2D illustration started with a curiosity for how beautiful paintings and artwork were made, and it quickly grew into a passion for drawing 2D illustrations. I love making new illustrations and turning ideas into reality.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="container">
+            <h2 class="section-title">My Work</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="https://placehold.co/400x200/333/fff?text=Project+1" alt="Project 1">
+                    <div class="portfolio-content">
+                        <h3>Project One</h3>
+                        <p>A modern e-commerce website built with responsive design principles.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://placehold.co/400x200/333/fff?text=Project+2" alt="Project 2">
+                    <div class="portfolio-content">
+                        <h3>Project Two</h3>
+                        <p>A personal blog platform with dynamic content loading using JavaScript.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://placehold.co/400x200/333/fff?text=Project+3" alt="Project 3">
+                    <div class="portfolio-content">
+                        <h3>Project Three</h3>
+                        <p>An interactive data visualization dashboard for a tech startup.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="container">
+            <h2 class="section-title">What I Offer</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Anime illustration</h3>
+                    <p>Illustrating anime characters and background be it an existing character or a custom character.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Furry illustration</h3>
+                    <p>Building responsive and interactive user interfaces with HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Pixel illustration</h3>
+                    <p>Expert advice on your web project, from planning to execution.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-content">
+                <p>Have a project in mind or just want to say hello? I'm always open to new opportunities!</p>
+                <div class="fiverr-cta">
+                    <p>Looking for professional freelance services?</p>
+                    <a href="https://www.fiverr.com/s/qDgwegl" target="_blank" class="cta-button">Hire Me on Fiverr</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Mustapha Sheriff. All Rights Reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
